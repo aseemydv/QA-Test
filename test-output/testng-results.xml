@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43533" started-at="2016-05-25T19:10:11Z" finished-at="2016-05-25T19:10:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43533" started-at="2016-05-25T19:10:11Z" finished-at="2016-05-25T19:10:54Z">
+      <class name="testSetup.baseSetup">
+        <test-method status="PASS" signature="initSetup(java.lang.String, java.lang.String)[pri:0, instance:testSetup.baseSetup@6a5fc7f7]" name="initSetup" is-config="true" duration-ms="14164" started-at="2016-05-26T00:40:11Z" finished-at="2016-05-26T00:40:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://selenium.couponapitest.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method status="PASS" signature="PageTitle()[pri:0, instance:testSetup.baseSetup@6a5fc7f7]" name="PageTitle" duration-ms="10828" started-at="2016-05-26T00:40:25Z" finished-at="2016-05-26T00:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageTitle -->
+        <test-method status="PASS" signature="imgAltValue()[pri:1, instance:testSetup.baseSetup@6a5fc7f7]" name="imgAltValue" duration-ms="8020" started-at="2016-05-26T00:40:36Z" finished-at="2016-05-26T00:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imgAltValue -->
+        <test-method status="PASS" signature="phpError()[pri:2, instance:testSetup.baseSetup@6a5fc7f7]" name="phpError" duration-ms="4317" started-at="2016-05-26T00:40:44Z" finished-at="2016-05-26T00:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phpError -->
+        <test-method status="PASS" signature="Error404()[pri:3, instance:testSetup.baseSetup@6a5fc7f7]" name="Error404" duration-ms="4450" started-at="2016-05-26T00:40:48Z" finished-at="2016-05-26T00:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Error404 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSetup.baseSetup@6a5fc7f7]" name="tearDown" is-config="true" duration-ms="1718" started-at="2016-05-26T00:40:52Z" finished-at="2016-05-26T00:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSetup.baseSetup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
